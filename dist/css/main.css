@@ -36,3 +36,28 @@ header {
   background: #101010;
 }
 
+header ul {
+  width: 90%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+  color: white;
+  list-style: none;
+  font-size: 14px;
+}
+
+header ul li {
+  cursor: pointer;
+  padding: 20px;
+}
+
+header ul li:hover {
+  background: lightgray;
+  color: black;
+}
+
+header ul img {
+  width: 100px;
+  padding-bottom: 0px;
+}
+
