@@ -11,8 +11,46 @@
 .flexend {
     display: flex;
     justify-content: end;
+    align-items: center;
 }
 .flexbt {
     display: flex;
     justify-content: space-between;
+}
+
+// text
+
+h2 {
+    color: $colortitlelight;
+    font-size: 30px;
+    font-weight: 300;
+    padding-bottom: 20px;
+}
+h3 {
+    color: $colortitlelight;
+    font-weight: 300;
+    padding-bottom: 20px;
+    font-size: 24px;
+}
+h4 {
+    color: $h4color;
+    font-weight: 400;
+}
+li {
+    color: $colortitlelight;
+    list-style: none;
+}
+
+// bottoni
+
+button {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 20px 20px 20px 0px;
+    color: white;
+    background-color: #009cff;
+    border: none;
+    font-size: 16px;
 }

@@ -25,6 +25,7 @@ span {
 .flexend {
   display: flex;
   justify-content: end;
+  align-items: center;
 }
 
 .flexbt {
@@ -32,32 +33,118 @@ span {
   justify-content: space-between;
 }
 
+h2 {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 300;
+  padding-bottom: 20px;
+}
+
+h3 {
+  color: #ffffff;
+  font-weight: 300;
+  padding-bottom: 20px;
+  font-size: 24px;
+}
+
+h4 {
+  color: #999999;
+  font-weight: 400;
+}
+
+li {
+  color: #ffffff;
+  list-style: none;
+}
+
+button {
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 20px 20px 20px 0px;
+  color: white;
+  background-color: #009cff;
+  border: none;
+  font-size: 16px;
+}
+
 header {
   background: #101010;
 }
-
+header select {
+  width: 80px;
+  height: 20px;
+}
+header i {
+  color: #009cff;
+  font-size: 14px;
+  margin-right: 5px;
+}
 header ul {
-  width: 90%;
+  width: 95%;
   display: flex;
   justify-content: flex-start;
   align-items: baseline;
-  color: white;
+  color: #ffffff;
   list-style: none;
   font-size: 14px;
 }
-
 header ul li {
   cursor: pointer;
   padding: 20px;
 }
-
+header ul li i {
+  color: lightgray;
+  font-size: 8px;
+  align-self: center;
+}
 header ul li:hover {
   background: lightgray;
   color: black;
 }
-
+header ul li:hover i {
+  color: black;
+}
+header ul li:first-child {
+  background: none;
+  cursor: none;
+}
 header ul img {
   width: 100px;
   padding-bottom: 0px;
+  cursor: none;
 }
 
+main .backgroundimg {
+  background: url(../img/hero-painteressentials-7.jpg);
+  height: 463px;
+  background-position: 50%;
+}
+main .backgroundimg .textleft {
+  padding-top: 50px;
+}
+main .backgroundimg .textleft li {
+  padding-bottom: 15px;
+}
+main .backgroundimg .boxright {
+  position: relative;
+  background-color: black;
+  padding: 15px;
+  padding-top: 60px;
+  margin-top: 15px;
+  margin-left: 30px;
+  width: 35%;
+}
+main .backgroundimg .boxright h2 {
+  padding-bottom: 10px;
+}
+main .backgroundimg .boxright img {
+  position: absolute;
+  right: 20px;
+  top: 30px;
+}
+main .backgroundimg .minibox {
+  background: white;
+  padding: 10px;
+}
