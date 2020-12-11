@@ -1,0 +1,18 @@
+// general
+.container {
+    width: 1170px;
+    margin: auto;
+}
+// flex
+.flexcol {
+    display: flex;
+    flex-direction: column;
+}
+.flexend {
+    display: flex;
+    justify-content: end;
+}
+.flexbt {
+    display: flex;
+    justify-content: space-between;
+}
