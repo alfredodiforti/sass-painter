@@ -100,5 +100,48 @@ main {
         margin-bottom: 50px;
     }
 }
+  .paintone {
+    height: 650px;
+    width: 100%;
+    background: url(../img/image-bg-02.jpg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.tools {
+    background: #222222;
+    padding-top: 120px;
+    h3 {
+        padding-bottom: 50px;
+    }
+    img {
+        width: 60%;
+        padding-bottom: 100px;
+    }
+    .experiment {
+        align-items: center;
+        h3 {
+            text-align: left;
+            line-height: 30px;
+        }
+    }
+    .brushes {
+        align-items: center;
+        h3 {
+            text-align: right;
+            line-height: 30px;
+        }
+    }
+}
+ .paintwo {
+        height: 650px;
+        width: 100%;
+        background: url(../img/image-bg-01.jpg);
+        background-repeat: no-repeat;
+        background-position: center bottom;
+        background-attachment: fixed;
+        background-size: cover;
+ }
 
 }

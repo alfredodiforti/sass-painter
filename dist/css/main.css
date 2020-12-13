@@ -229,3 +229,46 @@ main .scttre img {
   max-width: 100%;
   margin-bottom: 50px;
 }
+main .paintone {
+  height: 650px;
+  width: 100%;
+  background: url(../img/image-bg-02.jpg);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-attachment: fixed;
+  background-size: cover;
+}
+main .tools {
+  background: #222222;
+  padding-top: 120px;
+}
+main .tools h3 {
+  padding-bottom: 50px;
+}
+main .tools img {
+  width: 60%;
+  padding-bottom: 100px;
+}
+main .tools .experiment {
+  align-items: center;
+}
+main .tools .experiment h3 {
+  text-align: left;
+  line-height: 30px;
+}
+main .tools .brushes {
+  align-items: center;
+}
+main .tools .brushes h3 {
+  text-align: right;
+  line-height: 30px;
+}
+main .paintwo {
+  height: 650px;
+  width: 100%;
+  background: url(../img/image-bg-01.jpg);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-attachment: fixed;
+  background-size: cover;
+}
